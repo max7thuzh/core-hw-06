@@ -286,7 +286,6 @@ img {
   background-color: #fce38a;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
   transition: background-color 0.2s linear;
 }
 
