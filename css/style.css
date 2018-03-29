@@ -266,7 +266,7 @@ img {
 }
 
 .team-list-item-image-background:hover .overlay-wrapper {
-  transform: translate(-15px, -15px);
+  transform: translate(-10px, -10px);
 }
 
 .overlay {
