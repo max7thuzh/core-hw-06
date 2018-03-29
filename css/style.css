@@ -31,6 +31,22 @@ img {
   color: rgb(149, 225, 211);
   font-weight: bold;
   line-height: 1.2;
+  animation: logo-appear 1s linear;
+}
+
+@keyframes logo-appear {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .main-menu {
